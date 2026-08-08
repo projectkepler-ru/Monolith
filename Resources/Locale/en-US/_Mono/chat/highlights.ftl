@@ -30,3 +30,4 @@ highlights-tsfmc-corpsman = Corpsman, Medical, Surgery, "Medic", "Doc", Halcyon,
 highlights-tsfmc-marine = Marine, Halcyon, TSF, TSFMC
 highlights-tsfmc-engineer = Engineer, "Engi", Halcyon, TSF, TSFMC
 highlights-tsfmc-cyborg = "borg", "cyborg", "robot", Halcyon, TSF, TSFMC
+highlights-tsfmc-forecon = "Forecon", "Recon", TSF, TSFNC, Halcyon

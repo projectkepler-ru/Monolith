@@ -21,6 +21,7 @@ job-name-stc = Station Traffic Controller
 job-name-sr = Overseer
 job-name-pal = Public Affairs Liaison
 job-name-doc = Director of Care
+job-name-tsf-forecon = TSF FORECON
 
 # Job titles
 job-title-ert-mail-carrier = ERT Mail Carrier

@@ -15,6 +15,7 @@ job-description-pirate-first-mate = Handle special orders from the Grand Vizier 
 job-description-pdv-denasvar = You are a more experienced member of the Vanguard. Lead your peers to victory.
 job-description-pdv-tarkhan = An elite member of the PDV. Rarely deployed to Colossus.
 job-description-tsf-marsoc = An elite member of the TSF's MARSOC. Rarely deployed to Colossus.
+job-description-tsf-forecon = You are a fire support specialist of the Trans-Solar Federation, providing either sniper support or CQB suppression. Regardless of what you do, stick with your team. You answer to the captain and above but must prioritize all order from on-site winter solstice officers.
 job-description-public-affairs-liaison = Interface with the public, hand out and fill out forms and assist the TSFMC chain of command with administrative tasks.
 job-description-security-guard = "I am the law." Carry out the Overseer's bidding, bring order to chaos, and put down threats to the safety and security of the Sector.
 job-description-senior-officer = Teach new privates the basics of combat, and lead your TSFMC squads to victory against the Dynasty.
