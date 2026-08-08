@@ -20,6 +20,10 @@ tsf-o4 = Maj.
 tsf-o5 = LtCol.
 tsf-o6 = Col.
 
+## TSFMC Specialist ranks, just put whatever make sense here
+tsf-or1 = Spc.
+tsf-or2 = 1Spc.
+
 ## TSFN loadout ranks
 # These are used for engineers
 tsfn-w1 = WO
