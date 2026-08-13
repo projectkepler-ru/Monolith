@@ -31,7 +31,7 @@
       factions:
       - TSFMC
     - type: ChatRank
-      rank: tsf-marsoc
+      rank: tsf-forecon
   - !type:AddImplantSpecial
     implants: [ MindShieldImplant, TrackingImplant ]
   - !type:AddLanguageSpecial

@@ -113,7 +113,7 @@
 
 - type: entity
   name: "TCA AJS-95 'Absolver' Sniper Rifle"
-  parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
+  parent: [BaseGunWieldable, BaseC2ContrabandUnredeemable]
   id: WeaponTSFAbsolver
   description: A self-loading rifle built with the same technology as the anaconda. Fires hypodermic needle-like projectile or solid sabot at high velocity. The existence of this rifle was an open secret by the TSF Military due to the increased death caused by razorium poisoning.
   components:
@@ -136,19 +136,25 @@
     - SemiAuto
     soundGunshot:
       path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
-  - type: BasicEntityAmmoProvider
-    proto: BulletDragoon
-    capacity: 3
-    count: 3
-  - type: RechargeBasicEntityAmmo
-    rechargeCooldown: 4
-    rechargeSound:
-      path: /Audio/Weapons/Guns/Cock/shotgun_close.ogg
-  - type: AmmoCounter
-  - type: ContainerContainer
-    containers:
-      ballistic-ammo: !type:Container
-  - type: GunWieldBonus
-    minAngle: -5
-    maxAngle: -95
+  - type: Battery
+    maxCharge: 1000
+    startingCharge: 1000
+  - type: ProjectileBatteryAmmoProvider
+    proto: BulletDisabler
+    fireCost: 1000
+  - type: EnergyGun
+    fireModes:
+    - proto: BulletDisabler
+      fireCost: 700
+      name: disable
+      state: disabler
+    - proto: BulletEnergyGun357_magnum
+      fireCost: 700
+      name: lethal
+      state: lethal
   - type: GunRequiresWield
+  - type: BatterySelfRecharger
+    autoRecharge: true
+    autoRechargeRate: 350
+    autoRechargePause: true
+    autoRechargePauseTime: 5
