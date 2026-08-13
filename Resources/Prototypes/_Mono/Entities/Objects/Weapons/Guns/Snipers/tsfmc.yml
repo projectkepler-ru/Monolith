@@ -108,15 +108,15 @@
     - map: ["gripAttachment"]
     - map: ["opticAttachment"]
   - type: GunWieldBonus
-    minAngle: -21
+    minAngle: -41
     maxAngle: -47
   - type: Gun
-    minAngle: 21
+    minAngle: 41
     maxAngle: 48
     angleIncrease: 27
     angleDecay: 2
-    fireRate: 4
-    damageModifier: 2
+    fireRate: 3 # 180 rpm
+    damageModifier: 1.5
     selectedMode: SemiAuto
     availableModes:
     - SemiAuto
@@ -255,7 +255,6 @@
   - type: Gun
     minAngle: 32 # Mono
     maxAngle: 54 # Mono
-    damageModifier: 2
     angleIncrease: 14
     angleDecay: 5
     selectedMode: SemiAuto
