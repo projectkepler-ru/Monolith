@@ -111,6 +111,8 @@
         Piercing: 50
     armorPenetration: 0.20
 
+# Evil Fucking TSF Sniper Rifle That Kills Yumiko White
+
 - type: entity
   name: "TCA AJS-95 'Absolver' Sniper Rifle"
   parent: [BaseGunWieldable, BaseC2ContrabandUnredeemable]
