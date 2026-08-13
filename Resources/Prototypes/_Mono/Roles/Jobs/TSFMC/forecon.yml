@@ -15,7 +15,7 @@
   startingGear: TSFMCForeconStandard
   icon: JobIconTSFForecon
   supervisors: job-supervisors-sheriff
-  weight: 46
+  weight: 0
   displayWeight: 46
   assignedCompany: TSF
   canBeAntag: false

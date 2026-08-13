@@ -110,3 +110,45 @@
       types:
         Piercing: 50
     armorPenetration: 0.20
+
+- type: entity
+  name: "TCA AJS-95 'Absolver' Sniper Rifle"
+  parent: [BaseWeaponRifle, BaseGunWieldable, BaseC2ContrabandUnredeemable]
+  id: WeaponTSFAbsolver
+  description: A self-loading rifle built with the same technology as the anaconda. Fires hypodermic needle-like projectile or solid sabot at high velocity. The existence of this rifle was an open secret by the TSF Military due to the increased death caused by razorium poisoning.
+  components:
+  - type: Sprite
+    sprite: _Mono/Objects/Weapons/Guns/Snipers/shenzhen.rsi    layers:
+    - state: icon
+      map: ["enum.GunVisualLayers.Base"]
+  - type: Clothing
+    quickEquip: false
+    slots:
+    - suitStorage
+    - Belt
+  - type: Gun
+    fireRate: 2
+    projectileSpeed: 100
+    selectedMode: SemiAuto
+    minAngle: 1
+    maxAngle: 8
+    availableModes:
+    - SemiAuto
+    soundGunshot:
+      path: /Audio/Weapons/Guns/Gunshots/mateba.ogg
+  - type: BasicEntityAmmoProvider
+    proto: BulletDragoon
+    capacity: 3
+    count: 3
+  - type: RechargeBasicEntityAmmo
+    rechargeCooldown: 4
+    rechargeSound:
+      path: /Audio/Weapons/Guns/Cock/shotgun_close.ogg
+  - type: AmmoCounter
+  - type: ContainerContainer
+    containers:
+      ballistic-ammo: !type:Container
+  - type: GunWieldBonus
+    minAngle: -5
+    maxAngle: -95
+  - type: GunRequiresWield
