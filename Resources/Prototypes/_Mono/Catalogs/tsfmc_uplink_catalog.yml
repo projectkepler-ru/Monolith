@@ -518,7 +518,7 @@
   name:  uplink-security-fulton-name
   description: uplink-security-fulton-desc
   productEntity: Fulton
-  icon: { sprite: Objects/Tools/fulton.rsi, state: base }
+  icon: { sprite: Textures/Objects/Tools/fulton.rsi, state: base }
   cost:
     FederationMilitaryCredit: 25
   categories:
@@ -528,6 +528,3 @@
       whitelist:
         tags:
           - SecurityUplink
-    - !type:BuyerJobCondition
-      whitelist:
-        - TsfForecon

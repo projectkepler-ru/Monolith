@@ -224,7 +224,7 @@
   name: selectable-set-tsfpsse-chameleon-kit-name
   description: selectable-set-tsfpsse-chameleon-kit-desc
   sprite:
-    sprite: /Textures/Objects/Tools/fulton.rsi
+    sprite: Textures/Objects/Tools/fulton.rsi
     state: icon
   content:
   - ClothingMaskGasVoiceChameleon
