@@ -512,3 +512,22 @@
         - Sheriff
         - Bailiff
         - SeniorOfficer
+
+- type: listing
+  id: UplinkSecurityFulton
+  name:  uplink-security-fulton-name
+  description: uplink-security-fulton-desc
+  productEntity: Fulton
+  icon: { sprite: Objects/Tools/fulton.rsi, state: base }
+  cost:
+    FederationMilitaryCredit: 25
+  categories:
+    - UplinkSecurityUtility
+  conditions:
+    - !type:StoreWhitelistCondition
+      whitelist:
+        tags:
+          - SecurityUplink
+    - !type:BuyerJobCondition
+      whitelist:
+        - TsfForecon

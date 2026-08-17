@@ -132,3 +132,6 @@ uplink-security-hardsuit-m82c-desc = A basic protective system for dangerous env
 
 uplink-security-pulserifle-name = Pulse Rifle
 uplink-security-pulserifle-desc = A large, automatic pulse weapon. Larger cell, and high powered, perfect for chewing through groups of foes.
+
+uplink-security-fulton-name = Fulton
+uplink-security-fulton-desc = Spare fultons in case you run out.

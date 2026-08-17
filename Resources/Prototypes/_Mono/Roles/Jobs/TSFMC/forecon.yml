@@ -1,5 +1,5 @@
 - type: job
-  id: TsfMarsoc
+  id: TsfForecon
   name: job-name-tsf-forecon
   description: job-description-tsf-forecon
   playTimeTracker: JobTsfForecon

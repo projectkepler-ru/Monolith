@@ -216,3 +216,25 @@
   - WeaponEnergyRevolver
   - JawsOfLife
   - MedkitCombatFilled
+
+#Forecon start
+
+- type: thiefBackpackSet # TSF PSSE set
+  id: KitSelectorTSFPSEE
+  name: selectable-set-tsfpsse-chameleon-kit-name
+  description: selectable-set-tsfpsse-chameleon-kit-desc
+  sprite:
+    sprite: /Textures/Objects/Tools/fulton.rsi
+    state: icon
+  content:
+  - ClothingMaskGasVoiceChameleon
+  - RadioJammer
+  - FultonBeacon
+  - Fulton
+  - ToxinChemistryBottle
+  - LauncherSyringe
+  - MiniSyringe
+  - MiniSyringe
+  - MiniSyringe
+  - AgentIDCard
+  - SyringeCaseAltFilled
