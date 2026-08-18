@@ -224,13 +224,12 @@
   name: selectable-set-tsfpsse-chameleon-kit-name
   description: selectable-set-tsfpsse-chameleon-kit-desc
   sprite:
-    sprite: Textures/Objects/Tools/fulton.rsi
+    sprite: Objects/Tools/spy_device.rsi
     state: icon
   content:
   - ClothingMaskGasVoiceChameleon
   - RadioJammer
-  - FultonBeacon
-  - Fulton
+  - JawsOfLife
   - ToxinChemistryBottle
   - LauncherSyringe
   - MiniSyringe

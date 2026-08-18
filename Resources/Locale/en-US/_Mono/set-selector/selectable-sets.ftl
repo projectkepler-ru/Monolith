@@ -88,4 +88,4 @@ selectable-set-tsfmarsoc-hailstorm-kit-desc =
 
 selectable-set-tsfpsse-chameleon-kit-name = PSSE Agent kit
 selectable-set-tsfpsse-chameleon-kit-desc =
-    A set of espionage tools and gear that are perfect for any federation agent operating outside the marines's ranks. Comes with a syringe gun, toxin, and a fulton kit for extraction.
+    A set of espionage tools and gear that are perfect for any federation agent operating outside the marines's ranks. Comes with a syringe gun, toxin, and other useful gadgets.
