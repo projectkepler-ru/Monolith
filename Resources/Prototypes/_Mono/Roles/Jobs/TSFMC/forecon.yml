@@ -48,7 +48,6 @@
     eyes: ClothingEyesHudNfsd
     ears: ClothingHeadsetAltTsfmcMarsoc
     gloves: ClothingHandsGlovesTacticalCombatBlack
-    outerClothing: ClothingOuterHardsuitM86Mk4
     shoes: ClothingShoesBootsMagAdv
     id: MarsocPDA
     pocket1: CrowbarPocket

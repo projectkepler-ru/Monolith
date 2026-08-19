@@ -456,7 +456,6 @@
       gloves: ClothingModsuitGauntletsInfiltrator
       outerClothing: ClothingModsuitChestplateInfiltrator
       shoes: ClothingModsuitBootsInfiltrator
-  # Infiltrator is a Syndicate suit - not constructible, spawn-only
 
 - type: entity
   parent: ClothingModsuitInfiltrator
