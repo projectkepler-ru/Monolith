@@ -213,3 +213,20 @@
       - state: equipped-FEET-sealed-vox
   - type: ClothingSlowOnDamageModifier # Mono
     modifier: 0.75
+
+- type: entity
+  parent: ClothingModsuitBootsBase
+  id: ClothingModsuitBootsInfiltrator
+  name: tsf infiltrator modsuit boots
+  description: Sound-dampened boots for moving silently through enemy territory.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Shoes/Modsuits/infiltrator.rsi
+  - type: SealableClothingVisuals
+    spriteLayer: sealed
+    clothingVisuals:
+      shoes:
+      - state: equipped-FEET-sealed
+  - type: ClothingSlowOnDamageModifier # Mono
+    modifier: 0.75

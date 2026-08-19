@@ -252,3 +252,39 @@
       - state: equipped-HAND-sealed
       gloves-vox:
       - state: equipped-HAND-sealed-vox
+
+- type: entity
+  parent: ClothingModsuitGauntletsBase
+  id: ClothingModsuitGauntletsInfiltrator
+  name: tsf infiltrator modsuit gauntlets
+  description: Sleek gloves reinforced for climbing, grappling, and silently grabbing things.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Hands/Modsuits/infiltrator.rsi
+    layers:
+    - state: gauntlets
+    - state: gauntlets-sealed
+      visible: false
+      map: [ "sealed" ]
+  - type: Clothing
+    equipSound: /Audio/Mecha/mechmove03.ogg
+    unequipSound: /Audio/Mecha/mechmove03.ogg
+    slots: [ gloves ]
+  - type: DamageOnInteractProtection
+    damageProtection:
+      flatReductions:
+        Heat: 10
+  - type: Insulated
+  - type: Fiber
+    fiberMaterial: fibers-modular
+    fiberColor: fibers-blue
+  - type: FingerprintMask
+  - type: SealableClothing
+    sealUpPopup: sealable-clothing-seal-up-gauntlets
+    sealDownPopup: sealable-clothing-seal-down-gauntlets
+  - type: SealableClothingVisuals
+    spriteLayer: sealed
+    clothingVisuals:
+      gloves:
+      - state: equipped-HAND-sealed

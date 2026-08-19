@@ -548,3 +548,81 @@
         minValue: 0.1
         maxValue: 2.0
         isLooped: true
+
+- type: entity
+  parent: BaseClothingModsuitHelmet
+  id: ClothingModsuitHelmetInfiltrator
+  name: tsf infiltrator modsuit helmet
+  description: A sleek helmet that obscures the wearer's identity. The visor pulses with a faint, blueish glow.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Clothing
+    clothingVisuals:
+      head:
+      - state: equipped-HEAD
+  - type: Sprite
+    sprite: _Goobstation/Clothing/Head/Modsuits/infiltrator.rsi
+  - type: SealableClothingVisuals
+    spriteLayer: sealed
+    clothingVisuals:
+      head:
+      - state: equipped-HEAD-sealed
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.60
+        Slash: 0.60
+        Piercing: 0.50
+        Heat: 0.70
+        Radiation: 0.75
+  - type: ComponentToggler
+    components:
+    - type: BreathMask
+    - type: FlashImmunity
+    - type: EyeProtection
+      protectionTime: 5
+    - type: PressureProtection
+      highPressureMultiplier: 0.3
+      lowPressureMultiplier: 1000
+    - type: TemperatureProtection
+      heatingCoefficient: 0.01
+      coolingCoefficient: 0.01
+    - type: IdentityBlocker
+    - type: IngestionBlocker
+    - type: HideLayerClothing
+      slots:
+      - Hair
+      - Snout
+      - HeadTop
+      - HeadSide
+  - type: ToggleableVisuals
+    spriteLayer: light
+  - type: PointLight
+    enabled: false
+    radius: 5
+    energy: 3
+    mask: /Textures/Effects/LightMasks/cone.png
+    autoRot: true
+    netsync: false
+  - type: HandheldLight
+    addPrefix: true
+    blinkingBehaviourId: blinking
+    radiatingBehaviourId: radiating
+  - type: ItemTogglePointLight
+  - type: LightBehaviour
+    behaviours:
+      - !type:FadeBehaviour
+        id: radiating
+        interpolate: Linear
+        maxDuration: 2.0
+        startValue: 3.0
+        endValue: 2.0
+        isLooped: true
+        reverseWhenFinished: true
+      - !type:PulseBehaviour
+        id: blinking
+        interpolate: Nearest
+        maxDuration: 1.0
+        minValue: 0.1
+        maxValue: 2.0
+        isLooped: true

@@ -361,3 +361,49 @@
         Radiation: 0.4
   - type: StaminaDamageResistance
     coefficient: 0.7
+
+- type: entity
+  parent: ClothingModsuitChestplateBase
+  id: ClothingModsuitChestplateInfiltrator
+  name: tsf infiltrator MODsuit chestplate
+  description: A deep blue chestplate designed for stealth, infiltration, and dramatic monologues.
+  categories: [ HideSpawnMenu ]
+  components:
+  - type: Sprite
+    sprite: _Goobstation/Clothing/OuterClothing/Modsuits/infiltrator.rsi
+    layers:
+    - state: chestplate
+    - state: chestplate-sealed
+      visible: false
+      map: [ "sealed" ]
+  - type: SealableClothingVisuals
+    spriteLayer: sealed
+    clothingVisuals:
+      outerClothing:
+      - state: equipped-OUTERCLOTHING-sealed
+  - type: ClothingSpeedModifier
+    walkModifier: 1.0
+    sprintModifier: 1.0
+  - type: ExplosionResistance
+    damageCoefficient: 0.6
+  - type: StaminaDamageResistance
+    coefficient: 0.7
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.60
+        Slash: 0.60
+        Piercing: 0.50
+        Heat: 0.70
+        Radiation: 0.75
+        Caustic: 0.75
+  - type: ComponentToggler
+    components:
+    - type: PressureProtection
+      highPressureMultiplier: 0.3
+      lowPressureMultiplier: 1000
+    - type: TemperatureProtection
+      coolingCoefficient: 0.1
+      heatingCoefficient: 0.1
+  - type: FireProtection
+    reduction: 0.0
