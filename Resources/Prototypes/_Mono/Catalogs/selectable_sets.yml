@@ -228,6 +228,7 @@
     state: icon
   content:
   - ClothingMaskGasVoiceChameleon
+  - ClothingModsuitInfiltrator
   - RadioJammer
   - JawsOfLife
   - SpectresBlade

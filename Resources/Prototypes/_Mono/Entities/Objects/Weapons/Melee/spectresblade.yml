@@ -35,12 +35,6 @@
   - type: DisarmMalus
     malus: 0.225
 
-
-  - type: StaminaDamageOnHit
-    damage: 35
-    sound: /Audio/Weapons/egloves.ogg
-
-
   - type: SolutionContainerManager
     solutions:
       melee:
@@ -69,5 +63,5 @@
     delay: 5
     delays:
       blink:
-        length: 3
+        length: 5
   - type: UseDelayBlockMelee
